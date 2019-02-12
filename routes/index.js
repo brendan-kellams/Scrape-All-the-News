@@ -26,6 +26,7 @@ router.get('/article/:id', function (request, response) {
     .exec(function (error, articleData) {
         if (error) {
             response.status(500).end();
+            console.log(error);
         } else {
             response.render('article', {
                 article: articleData

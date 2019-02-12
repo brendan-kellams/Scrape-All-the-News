@@ -21,7 +21,11 @@
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^4.13.9",
-    "request": "^2.83.0"
+    "extend": "^3.0.2",
+    "hoek": "^6.1.2",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.11",
+    "mpath": "^0.5.1",
+    "request": "^2.88.0"
   }
 }
